@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ruleset name="climatestrike">
+ <description>PHP-Rules for my Climatestrike WordPress plugin projects</description>
+
+ <file>./src</file>
+
+ <!-- Code Reviews Rules -->
+ <rule ref="Inpsyde"/>
+
+</ruleset>
+

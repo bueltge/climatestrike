@@ -1,0 +1,30 @@
+{
+    "name": "bueltge/climatestrike",
+    "description": "A WordPress plugin to temporarily disable the website for the Global Climate Strike on 20 September 2019.",
+    "license": "GPL-2.0-or-later",
+    "type": "wordpress-plugin",
+    "homepage": "https://github.com/bueltge/climatestrike",
+    "authors": [
+        {
+            "name": "Frank Bueltge",
+            "email": "frank@bueltge.de",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "src": "https://github.com/inpsyde/climatestrike",
+        "issues": "https://github.com/inpsyde/climatestrike/issues"
+    },
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "inpsyde/php-coding-standards": "^0.13"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "platform": {
+            "php": "7.0.0"
+        }
+    }
+}
