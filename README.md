@@ -19,7 +19,7 @@ Install static via download, clone the repository or use dependency management v
 
 ## Kudos
 * Inspired by [digital.globalclimatestrike.net](https://digital.globalclimatestrike.net/)
-* [Global Climastrike (German version)](https://de.globalclimatestrike.net)
+* [Global Climatestrike](https://globalclimatestrike.net)
 * Placeholder Markup by [Sebastian Greger](https://github.com/sebastiangreger)
 
 ## License
@@ -29,7 +29,7 @@ Good news, this plugin is free for everyone! Since it's released under the [GPL 
 
 ## Contributing
 
- * [GitHub Repository](https://github.com/bueltge/climastrike)
+ * [GitHub Repository](https://github.com/bueltge/climatestrike)
 
 All feedback / bug reports / pull requests are welcome.
 
