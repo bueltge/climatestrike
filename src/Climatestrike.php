@@ -53,6 +53,11 @@ class Climatestrike
         if (is_user_logged_in() || is_feed()) {
             return true;
         }
+        /**
+         * phpcs:disable WordPress.VIP.SuperGlobalInputUsage.AccessDetected
+         * phpcs:disable WordPress.VIP.ValidatedSanitizedInput.InputNotSanitized
+         * phpcs:disable WordPress.VIP.ValidatedSanitizedInput.InputNotValidated
+         */
         if (in_array(esc_attr(wp_unslash($_SERVER['REQUEST_URI'])), $this->excludes, true)) {
             return true;
         }
