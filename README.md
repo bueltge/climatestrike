@@ -15,7 +15,7 @@ The plugin have no settings UI, has the focus for this day and leave no data ins
  * WordPress
  * PHP 7
 
-Install static via [download](./releases), clone the repository or use dependency management via Composer.
+Install static via [download](https://github.com/bueltge/climatestrike/releases), clone the repository or use dependency management via Composer.
 
 Set a reminder on your calendar to remove the plugin on or after 21 Sep (keep your site setup clean).
 
