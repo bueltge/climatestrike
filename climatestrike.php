@@ -25,7 +25,7 @@ add_action(
             // Array with slugs of pages for an exclude of the replacement page.
             $excludes = apply_filters('climatestrike.excludes', ['/impressum/', '/thueringen-erfahren/']);
             (new Climatestrike())
-                ->set(__FILE__, '2019-09-19', $excludes)
+                ->set(__FILE__, '2019-09-20', $excludes)
                 ->run();
         } catch (Throwable $error) {
             if (defined('WP_DEBUG') && WP_DEBUG) {
