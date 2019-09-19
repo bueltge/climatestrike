@@ -20,7 +20,7 @@ require_once plugin_dir_path(__FILE__).'./src/Climatestrike.php';
 
 add_action(
     'plugins_loaded',
-    static function () {
+    static function (): bool {
         try {
             // Array with slugs of pages for an exclude of the replacement page.
             $excludes = apply_filters('climatestrike.excludes', ['/impressum/', '/thueringen-erfahren/']);
