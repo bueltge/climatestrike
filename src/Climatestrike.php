@@ -9,6 +9,7 @@ class Climatestrike
 {
 
     private $pluginroot;
+
     private $pluginurl;
 
     private $strikedate;
@@ -38,6 +39,7 @@ class Climatestrike
     public function run()
     {
         if (!$this->exclude() && $this->timestamp()) {
+            wp_cache_flush();
             header('Location: '.$this->placeholderFile(), true, 302);
             exit();
         }
@@ -48,10 +50,10 @@ class Climatestrike
      */
     private function exclude(): bool
     {
-        if (is_user_logged_in()) {
+        if (is_user_logged_in() || is_feed()) {
             return true;
         }
-        if (in_array(esc_url($_SERVER['REQUEST_URI']), $this->excludes, true)) {
+        if (in_array(esc_attr(wp_unslash($_SERVER['REQUEST_URI'])), $this->excludes, true)) {
             return true;
         }
 

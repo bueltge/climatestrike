@@ -19,7 +19,8 @@
         "php": ">=7.0"
     },
     "require-dev": {
-        "phpcompatibility/php-compatibility": "*",
+        "phpcompatibility/php-compatibility": "^9",
+        "phpcompatibility/phpcompatibility-wp": "*",
         "inpsyde/php-coding-standards": "^0.13"
     },
     "config": {
