@@ -22,10 +22,6 @@
         "phpcompatibility/php-compatibility": "*",
         "inpsyde/php-coding-standards": "^0.13"
     },
-    "scripts": {
-        "post-install-cmd": "\"vendor/bin/phpcs\" --config-set installed_paths vendor/phpcompatibility/php-compatibility",
-        "post-update-cmd" : "\"vendor/bin/phpcs\" --config-set installed_paths vendor/phpcompatibility/php-compatibility"
-    },
     "config": {
         "optimize-autoloader": true,
         "platform": {
