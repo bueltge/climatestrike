@@ -3,7 +3,7 @@ declare(strict_types=1);
 /**
  * Plugin Name: Climatestrike
  * Plugin URI:  https://github.com/bueltge/climatestrike
- * Description: A plugin to temporarily disable the website for the Global Climate Strike on 20 September 2019.
+ * Description: A plugin to temporarily disable the website for the Global Climate Strike.
  * Version:     1.0.3
  * Author:      Frank Bültge
  * Author URI:  https://bueltge.de
