@@ -1,6 +1,12 @@
 # Change Log
 All notable changes to this project will be documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 1.0.4
+* Change appintment for the global appointment in 09/25/2020
+
+## 1.0.3
+* Ready for the next one, 11/29/2019
+
 ## 1.0.2
  * Add feeds to the exclude list.
  * Remove slahes from exclude slugs.
