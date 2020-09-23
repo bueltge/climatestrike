@@ -2,7 +2,7 @@
 
 A WordPress plugin to temporarily disable the website for the Global Climate Strike on 25 September 2020.
 
-The plugin disables the entire website and returns a placeholder page along with HTTP code 302 Moved temporarily for the global climate strike day at 20 September 2019. The placeholder is a simple HTML page, leave-in `/assets/placeholder.html`. The placeholder page is available in English or German language. The language settings of the page controls the output. The fallback if the placeholder page in this language is not available in English (`en`). 
+The plugin disables the entire website and returns a placeholder page along with HTTP code 302 Moved temporarily for the global climate strike day. The placeholder is a simple HTML page, leave-in `/assets/placeholder.html`. The placeholder page is available in English or German language. The language settings of the page controls the output. The fallback if the placeholder page in this language is not available in English (`en`). 
 
 It is possible to exclude pages from the replacement, initial only the page with the slug `/impressum/` and all users there are logged in. You should use the filter hook `climatestrike.excludes` to change or enhance the pages to exclude. 
 
