@@ -1,6 +1,6 @@
 # Climatestrike
 
-A WordPress plugin to temporarily disable the website for the Global Climate Strike on 20 September 2019.
+A WordPress plugin to temporarily disable the website for the Global Climate Strike on 25 September 2020.
 
 The plugin disables the entire website and returns a placeholder page along with HTTP code 302 Moved temporarily for the global climate strike day at 20 September 2019. The placeholder is a simple HTML page, leave-in `/assets/placeholder.html`. The placeholder page is available in English or German language. The language settings of the page controls the output. The fallback if the placeholder page in this language is not available in English (`en`). 
 
@@ -17,7 +17,7 @@ The plugin have no settings UI, has the focus for this day and leave no data ins
 
 Install static via [download](https://github.com/bueltge/climatestrike/releases), clone the repository or use dependency management via Composer.
 
-Set a reminder on your calendar to remove the plugin on or after 21 Sep (keep your site setup clean).
+Set a reminder on your calendar to remove the plugin on or after the appointment (keep your site setup clean).
 
 ## Kudos
 * Inspired by [digital.globalclimatestrike.net](https://digital.globalclimatestrike.net/)
@@ -25,7 +25,7 @@ Set a reminder on your calendar to remove the plugin on or after 21 Sep (keep yo
 * Placeholder Markup by [Sebastian Greger](https://github.com/sebastiangreger)
 
 ## License
-Copyright (c) 2019, [Frank Bültge](https://bueltge.de)
+Copyright (c) 2019 to now, [Frank Bültge](https://bueltge.de)
 
 Good news, this plugin is free for everyone! Since it's released under the [GPL License](./LICENSE) you can use it free of charge on your personal or commercial website.
 
