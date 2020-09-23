@@ -4,7 +4,7 @@ declare(strict_types=1);
  * Plugin Name: Climatestrike
  * Plugin URI:  https://github.com/bueltge/climatestrike
  * Description: A plugin to temporarily disable the website for the Global Climate Strike.
- * Version:     1.0.3
+ * Version:     1.0.4
  * Author:      Frank Bültge
  * Author URI:  https://bueltge.de
  * License:     GPLv2+
@@ -25,7 +25,7 @@ add_action(
             // Array with slugs of pages for an exclude of the replacement page.
             $excludes = apply_filters('climatestrike.excludes', ['/impressum/', '/thueringen-erfahren/']);
             (new Climatestrike())
-                ->set(__FILE__, '2019-11-29', $excludes)
+                ->set(__FILE__, '2020-09-25', $excludes)
                 ->run();
         } catch (Throwable $error) {
             if (defined('WP_DEBUG') && WP_DEBUG) {
